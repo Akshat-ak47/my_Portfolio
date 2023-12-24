@@ -981,3 +981,11 @@ section {
         font-size: 1rem;
     }
 }
+/* Set styles for screens with a width between 300px and 412px */
+@media screen and (min-width: 300px) and (max-width: 412px) {
+    #menu-icon {
+        position: fixed; /* Fixed position so it stays in view even when scrolling */
+        left: 65%; /*Adjust the left position as needed*/
+        top: 2%; /*Adjust the top position as needed */
+    }
+}
