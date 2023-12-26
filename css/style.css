@@ -1005,18 +1005,29 @@ section {
     .portfolio .main-text span {
         font-size: 25px;
     }
+    .portfolio .main-text h2 {
+        font-size: 20px;
+    }
 }
 @media (max-width:371px){
     .contact .main-text span {
         font-size: 25px;
     }
 }
-@media (max-width:315px){
+@media (max-width:318px){
     .portfolio .main-text span {
         font-size: 22px;
     }
     .contact .main-text span {
         font-size: 22px;
+    }
+}
+@media (max-width:286px){
+    .portfolio .main-text span {
+        font-size: 18px;
+    }
+    .contact .main-text span {
+        font-size: 18px;
     }
 }
 /* Set styles for screens with a width between 300px and 412px */
