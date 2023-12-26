@@ -588,7 +588,14 @@ section {
     margin-left: 6%;
     margin-top: 1%;
 }
+
 .portfolio .main-text span {
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+    font-size: 30px;
+}
+.portfolio .main-text h1 {
     justify-content: center;
     align-items: center;
     margin-left: 8%;
@@ -701,6 +708,8 @@ section {
     width: 100%;
 }
 .contact .main-text h2 {
+    justify-content: center;
+    align-items: center;
     font-size: 30px;
     margin-left: 4%;
     margin-top: 1%;
