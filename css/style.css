@@ -962,6 +962,13 @@ section {
 }
 
 @media (max-width:420px){
+    #menu-icon {
+        display: block;
+        transform: all .4s ease;
+    }
+    #menu-icon.bx-x{
+        transform: rotate(-180deg);
+    }
     html{
         font-size: 80%;
     }
@@ -981,11 +988,15 @@ section {
         font-size: 1rem;
     }
 }
+/* Your existing styles */
+
 /* Set styles for screens with a width between 300px and 412px */
-@media screen and (min-width: 300px) and (max-width: 412px) {
-    #menu-icon {
-        position: fixed; /* Fixed position so it stays in view even when scrolling */
-        left: 65%; /*Adjust the left position as needed*/
-        top: 2%; /*Adjust the top position as needed */
-    }
-}
+
+
+/* Default styles for larger screens */
+
+/* Media query for screens up to 556px width */
+
+/* Add more media queries for smaller screens if needed */
+
+/* Your other styles */
