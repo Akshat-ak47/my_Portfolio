@@ -461,8 +461,10 @@ section {
 }
 .skills .main-text h2 {
     font-size: 30px;
-    margin-left:4%;
-    margin-top: 1%;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:4%;
+    margin-top: 1%; */
 }
 .skills .main-text span {
     justify-content: center;
@@ -585,26 +587,27 @@ section {
 /* pORTFOLIO css  */
 .portfolio .main-text h2 {
     font-size: 30px;
-    margin-left: 6%;
-    margin-top: 1%;
+    /* margin-left: 6%;
+    margin-top: 1%; */
 }
 
 .portfolio .main-text span {
     justify-content: center;
     align-items: center;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-size: 30px;
 }
 .portfolio .main-text h1 {
     justify-content: center;
     align-items: center;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-size: 30px;
 }
 
 .filter-buttons {
-    margin: 2rem;
-    margin-left: 4.2rem;
+    justify-content: center;
+    /* margin: 2rem; */
+    /* margin-left: 4.2rem; */
     text-align: center;
 }
 .filter-buttons .button{
@@ -711,13 +714,13 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin-left: 4%;
-    margin-top: 1%;
+    /* margin-left: 4%; */
+    /* margin-top: 1%; */
 }
 .contact .main-text span {
     justify-content: center;
     align-items: center;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     font-size: 30px;
 }
 
